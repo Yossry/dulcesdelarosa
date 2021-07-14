@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_inventory_inherited" model="ir.ui.view">
+        <field name="name">stock.inventory.inherited</field>
+        <field name="model">stock.inventory</field>
+        <field name="inherit_id" ref="stock.view_inventory_form"/>
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//tree/field[@name='prod_lot_id']"
+                       position="after">
+                    <field name="analytic_account_id"/>
+                </xpath>
+            </data>
+        </field>
+    </record>
+</odoo>

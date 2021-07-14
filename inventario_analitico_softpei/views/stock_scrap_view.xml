@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="stock_scrap_form_inherithed" model="ir.ui.view">
+        <field name="name">stock.scrap.inherited</field>
+        <field name="model">stock.scrap</field>
+        <field name="inherit_id" ref="stock.stock_scrap_form_view"/>
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//group[1]/group[1]" position="inside">
+                    <field name="analytic_account_id"/>
+                </xpath>
+            </data>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_analytic_accounting_stock" name="Analytic Accounting" parent="stock.menu_stock_config_settings" sequence="5"/>
+
+
+    <menuitem
+            action="analytic.action_account_analytic_account_form"
+            id="account_analytic_def_account_stock"
+            parent="menu_analytic_accounting_stock"
+            groups="analytic.group_analytic_accounting"/>
+
+    <menuitem
+            id="account_analytic_tag_menu_stock"
+            name="Analytic Tags"
+            parent="menu_analytic_accounting_stock"
+            action="analytic.account_analytic_tag_action"
+            groups="analytic.group_analytic_tags"/>
+
+    <menuitem
+            id="account_analytic_group_menu_stock"
+            name="Analytic Account Groups"
+            parent="menu_analytic_accounting_stock"
+            action="analytic.account_analytic_group_action"
+            groups="analytic.group_analytic_accounting"/>
+    <menuitem
+            id="menu_analytic_accounting_mrp"
+            name="Analytic Accounting"
+            parent="mrp.menu_mrp_configuration"
+            groups="analytic.group_analytic_accounting,analytic.group_analytic_tags"/>
+
+
+    <menuitem
+            action="analytic.action_account_analytic_account_form"
+            id="account_analytic_def_account"
+            parent="menu_analytic_accounting_mrp"
+            groups="analytic.group_analytic_accounting"/>
+
+    <menuitem
+            id="account_analytic_tag_menu"
+            name="Analytic Tags"
+            parent="menu_analytic_accounting_mrp"
+            action="analytic.account_analytic_tag_action"
+            groups="analytic.group_analytic_tags"/>
+
+    <menuitem
+            id="account_analytic_group_menu"
+            name="Analytic Account Groups"
+            parent="menu_analytic_accounting_mrp"
+            action="analytic.account_analytic_group_action"
+            groups="analytic.group_analytic_accounting"/>
+</odoo>

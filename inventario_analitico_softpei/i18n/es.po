@@ -1,0 +1,85 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* inventario_analitico_softpei
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0-20190201\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-27 13:07+0000\n"
+"PO-Revision-Date: 2019-02-27 13:07+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: inventario_analitico_softpei
+#: model:ir.model.fields,field_description:inventario_analitico_softpei.field_mrp_production__analytic_account_id
+#: model:ir.model.fields,field_description:inventario_analitico_softpei.field_stock_inventory_line__analytic_account_id
+#: model:ir.model.fields,field_description:inventario_analitico_softpei.field_stock_move__analytic_account_id
+#: model:ir.model.fields,field_description:inventario_analitico_softpei.field_stock_move_line__analytic_account_id
+#: model:ir.model.fields,field_description:inventario_analitico_softpei.field_stock_scrap__analytic_account_id
+msgid "Analytic Account"
+msgstr "Cuenta analítica"
+
+#. module: inventario_analitico_softpei
+#: model:ir.ui.menu,name:inventario_analitico_softpei.account_analytic_group_menu
+#: model:ir.ui.menu,name:inventario_analitico_softpei.account_analytic_group_menu_stock
+msgid "Analytic Account Groups"
+msgstr "Grupos de cuentas analíticas"
+
+#. module: inventario_analitico_softpei
+#: model:ir.ui.menu,name:inventario_analitico_softpei.menu_analytic_accounting_mrp
+#: model:ir.ui.menu,name:inventario_analitico_softpei.menu_analytic_accounting_stock
+msgid "Analytic Accounting"
+msgstr "Contabilidad analítica"
+
+#. module: inventario_analitico_softpei
+#: model:ir.ui.menu,name:inventario_analitico_softpei.account_analytic_def_account
+#: model:ir.ui.menu,name:inventario_analitico_softpei.account_analytic_def_account_stock
+msgid "Analytic Accounts"
+msgstr "Cuentas analíticas"
+
+#. module: inventario_analitico_softpei
+#: model:ir.ui.menu,name:inventario_analitico_softpei.account_analytic_tag_menu
+#: model:ir.ui.menu,name:inventario_analitico_softpei.account_analytic_tag_menu_stock
+msgid "Analytic Tags"
+msgstr "Etiquetas analíticas"
+
+#. module: inventario_analitico_softpei
+#: model:ir.model,name:inventario_analitico_softpei.model_stock_inventory_line
+msgid "Inventory Line"
+msgstr "Línea inventario"
+
+#. module: inventario_analitico_softpei
+#: model:ir.model,name:inventario_analitico_softpei.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "Movimientos de Producto (Líneas de Movimientos de Inventarios)"
+
+#. module: inventario_analitico_softpei
+#: model:ir.model,name:inventario_analitico_softpei.model_mrp_production
+msgid "Production Order"
+msgstr "Orden de Produccion"
+
+#. module: inventario_analitico_softpei
+#: model:ir.model,name:inventario_analitico_softpei.model_purchase_order
+msgid "Purchase Order"
+msgstr "Pedido de compra"
+
+#. module: inventario_analitico_softpei
+#: model:ir.model,name:inventario_analitico_softpei.model_sale_order
+msgid "Sale Order"
+msgstr "Pedido de Venta"
+
+#. module: inventario_analitico_softpei
+#: model:ir.model,name:inventario_analitico_softpei.model_stock_scrap
+msgid "Scrap"
+msgstr "Desecho"
+
+#. module: inventario_analitico_softpei
+#: model:ir.model,name:inventario_analitico_softpei.model_stock_move
+msgid "Stock Move"
+msgstr "Movimiento de existencias"
+
