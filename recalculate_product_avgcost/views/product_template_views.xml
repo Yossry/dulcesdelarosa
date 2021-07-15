@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+# -*- coding: utf-8 -*-
+##############################################################################
+#
+#    SIE CENTER custom module for Odoo
+#    Copyright (C) 2021
+#    @author: @cyntiafelix
+#
+##############################################################################
+ -->
+
+ <odoo>
+   <record id="recalculate_avgcost_action" model="ir.actions.server">
+ 	<field name="name">Recalcular Costo Promedio</field>
+ 		<field name="type">ir.actions.server</field>
+ 		<field name="model_id" ref="recalculate_product_avgcost.model_product_template"/>
+ 		<field name="binding_model_id" ref="recalculate_product_avgcost.model_product_template" />
+ 		<field name="state">code</field>
+ 		<field name="code">records.action_recalculate_avgcost()</field>
+ </record>
+ </odoo>
